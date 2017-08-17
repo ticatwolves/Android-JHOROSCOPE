@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pythonanywhere.ticatwolves.jhoroscope.MainActivity"
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center"
+        android:id="@+id/zodiaclists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+
+
+
+
+
+    <!--
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/libra_image"
+                    android:layout_width="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/libra" />
+                <Button
+                    android:id="@+id/libra_button"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="15dp"
+                    style="@style/buttons"
+                    android:text="Libra" />
+
+                <ImageButton
+                    android:id="@+id/scorpio_image"
+                    android:layout_width="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/nice"/>
+                <Button
+                    android:id="@+id/scorpio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_height="15dp"
+                    style="@style/buttons"
+                    android:text="Scorpio" />
+
+
+                <ImageButton
+                    android:id="@+id/sagittarius_image"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/two"/>
+                <Button
+                    android:id="@+id/sagittarius_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    style="@style/buttons"
+                    android:layout_alignParentRight="true"
+                    android:text="Sagittarius" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="132dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:id="@+id/aries_image"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/five" />
+
+            <Button
+                android:id="@+id/aries_button"
+                style="@style/buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:text="Aries" />
+
+            <ImageButton
+                android:id="@+id/taurus_text"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/taurus" />
+            <Button
+                android:id="@+id/Taurus_button"
+                style="@style/buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="Taurus" />
+
+
+            <ImageButton
+                android:id="@+id/gemini_text"
+                android:layout_width="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" android:background="@drawable/nice" />
+
+            <Button
+                android:id="@+id/gemini_button"
+                android:layout_alignParentLeft="true"
+                android:layout_height="15dp"
+                style="@style/buttons"
+                android:text="Gemini" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/cancer_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/cancer"/>
+            <Button
+                android:id="@+id/cancer_button"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                style="@style/buttons"
+                android:text="Cancer" />
+            <ImageButton
+                android:id="@+id/leo_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/leo" />
+            <Button
+                android:id="@+id/leo_button"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                style="@style/buttons"
+                android:text="Leo" />
+
+
+
+            <ImageButton
+                android:id="@+id/virgo_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/two"/>
+            <Button
+                android:id="@+id/virgo_button"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                style="@style/buttons"
+                android:text="Virgo" />
+
+        </RelativeLayout>
+    my code
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/cancer_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/cancer"/>
+                <Button
+                    android:id="@+id/cancer_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    style="@style/buttons"
+                    android:text="Cancer" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/leo_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/leo" />
+                <Button
+                    android:id="@+id/leo_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    style="@style/buttons"
+                    android:text="Leo" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/virgo_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/two"/>
+                <Button
+                    android:id="@+id/virgo_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    style="@style/buttons"
+                    android:text="Virgo" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    -->

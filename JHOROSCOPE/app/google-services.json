@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "641221596024",
+    "firebase_url": "https://jhoroscope-6f026.firebaseio.com",
+    "project_id": "jhoroscope-6f026",
+    "storage_bucket": "jhoroscope-6f026.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641221596024:android:21656b4e94c3950e",
+        "android_client_info": {
+          "package_name": "com.pythonanywhere.ticatwolves.jhoroscope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641221596024-s9j4h41jn9g4jjmp2tpd35fa68pk87i7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pythonanywhere.ticatwolves.jhoroscope",
+            "certificate_hash": "08cd7533858eb1b1971efba18ca80127d3f02765"
+          }
+        },
+        {
+          "client_id": "641221596024-gs6j7qe4rkm9bj6ghe99t2gck0glvefv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGtez9F2gBcHhHdpAa_3hUAH1_CLVjGKc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641221596024-gs6j7qe4rkm9bj6ghe99t2gck0glvefv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

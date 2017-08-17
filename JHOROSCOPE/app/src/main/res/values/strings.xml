@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">JHOROSCOPE</string>
+    <string name="dmmy">
+        A paragraph here to show content
+        A paragraph here to show content
+        A paragraph here to show content
+        A paragraph here to show content
+        A paragraph here to show content
+        A paragraph here to show content
+        A paragraph here to show content
+    </string>
+    <string-array name="list_one">
+        <item>Aries</item>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+    </string-array>
+    <string-array name="list_two">
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+    </string-array>
+    <string-array name="list_three">
+        <item>Sagittarius</item>
+        <item>Capricorn</item>
+        <item>Aquarius</item>
+        <item>Pisces</item>
+    </string-array>
+
+    <string-array name="list">
+        <item>Aries</item>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+        <item>Sagittarius</item>
+        <item>Capricorn</item>
+        <item>Aquarius</item>
+        <item>Pisces</item>
+    </string-array>
+
+</resources>
