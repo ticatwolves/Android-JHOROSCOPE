@@ -37,7 +37,17 @@
         android:layout_toRightOf="@+id/zodiacsign"
         android:text="March 21 - April  12" />
 
-    <view class="android.support.v4.view.ViewPager"
+<!--    <View-->
+<!--        android:id="@+id/myview"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_below="@+id/zodiacsign"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:paddingBottom="40dp"-->
+<!--        android:layout_above="@+id/tablayout" />-->
+
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/myview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -47,7 +57,7 @@
         android:paddingBottom="40dp"
         android:layout_above="@+id/tablayout" />
 
-    <android.support.design.widget.TabLayout
+    <com.google.android.material.tabs.TabLayout
         android:id="@+id/tablayout"
         android:layout_width="match_parent"
         android:background="@color/colorPrimary"
@@ -56,26 +66,26 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
-        <android.support.design.widget.TabItem
+        <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Daily" />
 
-        <android.support.design.widget.TabItem
+        <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Weekly" />
 
-        <android.support.design.widget.TabItem
+        <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Monthly" />
 
-        <android.support.design.widget.TabItem
+        <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Yearly" />
-    </android.support.design.widget.TabLayout>
+    </com.google.android.material.tabs.TabLayout>
 
 
 </RelativeLayout>

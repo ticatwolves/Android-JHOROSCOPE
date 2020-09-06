@@ -3,15 +3,18 @@ package com.pythonanywhere.ticatwolves.jhoroscope;
 import android.graphics.Color;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager2.widget.ViewPager2;
+
+import com.google.android.material.tabs.TabLayout;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -77,7 +80,7 @@ public class ZodiacViewHolder extends AppCompatActivity {
 
     }
 
-    class Pager extends FragmentPagerAdapter{
+    class Pager extends FragmentPagerAdapter {
         String ztime[] = {"Daily","Weekly","Monthly","Yearly"};
 
         public Pager(FragmentManager fm) {

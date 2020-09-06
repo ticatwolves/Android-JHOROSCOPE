@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JHOROSCOPE.iml" filepath="$PROJECT_DIR$/JHOROSCOPE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JHOROSCOPE.iml" filepath="$PROJECT_DIR$/.idea/modules/JHOROSCOPE.iml" group="JHOROSCOPE" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="JHOROSCOPE/app" />
     </modules>
   </component>
 </project>
